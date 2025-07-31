@@ -1,9 +1,0 @@
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\bin\Release\net48\Cheats.dll
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\bin\Release\net48\Cheats.pdb
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.csproj.AssemblyReference.cache
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.AssemblyInfoInputs.cache
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.AssemblyInfo.cs
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.csproj.CoreCompileInputs.cache
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.dll
-C:\Users\kopyl\OneDrive\Documents\CS2-Mods\Cheats\obj\Release\net48\Cheats.pdb
