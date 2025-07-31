@@ -1,0 +1,50 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Cheats" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Adds options to unlock milestones, give money and dev points and unlock individual prefabs all in the settings menu." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+		This mod is pretty simple, basic cheats to not have to use the developer mode.
+		
+		You can find the cheats in the settings menu. (ESC -> Settings -> Cheats)
+
+		### Functions:
+
+		- **Unlock Milestones**: Unlock next milestone or unlock all milestones.
+		- **Add/Subtract Money**: Easy addition and subtraction of money with a slider.
+		- **Add/Subtract Development Points**: Easy addition and subtraction of development points with a slider.
+		- **Unlock items from Milestones**: Keeps selected milestone and previous milestones locked, e.g. you can unlock buses from Milestone 4 while still being at Milestone 0.
+		- **Unlock individual prefabs**: Need the prefab type (such as BuildingPrefab) and name (such as BusDepot01), does not unlock dependencies such as UI category and menu.
+		- **Keybinds**: Unlock next or all milestones, add or subtract 500k money aswell as add or subtract 1 development point.
+		
+		That's all there really is to it. Keybinds are not set by default. This mod is fully safe to remove.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot1.jpg"/>
+	<Screenshot Value="Properties/Screenshot2.jpg"/>
+	<Screenshot Value="Properties/Screenshot3.jpg"/>
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.3.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
+	<RequiredDLC Value="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="" />
+	<!--<ChangeLog>
+	</ChangeLog>-->
+	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
+	<ExternalLink Type="" Url="" />
+</Publish>
