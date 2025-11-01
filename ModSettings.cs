@@ -13,12 +13,12 @@ namespace Cheats
     [FileLocation(nameof(Cheats))]
     [SettingsUIGroupOrder(kSection, kExtra, kKeybinds)]
     [SettingsUIShowGroupName(kMilestonesGroup, kMoneyGroup, kDevGroup, kUnlockerGroup, kOptionGroup)]
-    [SettingsUIKeyboardAction(Mod.kAddMoney, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
-    [SettingsUIKeyboardAction(Mod.kSubtractMoney, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
-    [SettingsUIKeyboardAction(Mod.kAddDev, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
-    [SettingsUIKeyboardAction(Mod.kSubtractDev, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
-    [SettingsUIKeyboardAction(Mod.kNextMilestone, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
-    [SettingsUIKeyboardAction(Mod.kAllMilestones, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
+    [SettingsUIKeyboardAction(name: Mod.kAddMoney, type: ActionType.Button, rebindOptions:RebindOptions.All, modifierOptions: ModifierOptions.Allow, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
+    [SettingsUIKeyboardAction(name: Mod.kSubtractMoney, type: ActionType.Button, rebindOptions: RebindOptions.All, modifierOptions: ModifierOptions.Allow, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
+    [SettingsUIKeyboardAction(name: Mod.kAddDev, type: ActionType.Button, rebindOptions: RebindOptions.All, modifierOptions: ModifierOptions.Allow, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
+    [SettingsUIKeyboardAction(name: Mod.kSubtractDev, type: ActionType.Button, rebindOptions: RebindOptions.All, modifierOptions: ModifierOptions.Allow, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
+    [SettingsUIKeyboardAction(name: Mod.kNextMilestone, type: ActionType.Button, rebindOptions: RebindOptions.All, modifierOptions: ModifierOptions.Allow, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
+    [SettingsUIKeyboardAction(name: Mod.kAllMilestones, type: ActionType.Button, rebindOptions: RebindOptions.All, modifierOptions: ModifierOptions.Allow, usages: new string[] { Usages.kMenuUsage, "CheatUsage" }, interactions: new string[] { "UIButton" })]
     public class ModSettings : ModSetting
     {
 
