@@ -1,4 +1,5 @@
-vs/
+.vs/
+.github/
 bin/
 obj/
 *.csproj.user
